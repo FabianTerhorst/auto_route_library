@@ -14,10 +14,10 @@ dependencies:
   build_runner: ^2.1.5
   code_builder: ^4.1.0
   dart_style: ^2.2.0
-  auto_route:
-#       ^3.2.1
-    path: ../auto_route
-
+  auto_route: # based on 3.2.2
+    git:
+      url: https://github.com/FabianTerhorst/auto_route_library.git
+      path: auto_route
 
 dev_dependencies:
   source_gen_test:
